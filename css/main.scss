@@ -20,7 +20,7 @@ body {
 }
 
 .website-container {
-  background-color: white;
+  background-image: url(../img/45degreee.png);
   position: absolute;
   height: 70%; 
   min-width: 56em;
@@ -30,7 +30,7 @@ body {
 }
 
 .width_limit-container {
-	background-color: white;
+  background-image: url(../img/45degreee.png);
   position: absolute;
   overflow: hidden;
   right: 0%;
@@ -39,11 +39,12 @@ body {
 }
 
 .content-container{
-  background-color: white;
+  background-image: url(../img/45degreee.png);
   position: relative;
 	overflow: hidden;
 	max-width: 60em;
 	min-width: 20em;
+	padding-left: 1em;
 	right: 0%;
 	top: 10%;
   height:80%;
@@ -63,6 +64,7 @@ body {
 	background-image: url(../img/45degreeeDarkblue.png);
 	position: absolute;
 	background-color: pink;
+	margin-left: 1em;
 	width: 100%;
 	height: 0.9em;
 	top: 8%;
@@ -71,9 +73,9 @@ body {
 
 
 .content{
-	padding-left: 1em;
+	padding-left: 0em;
 	padding-right: 2em;
-	width: 97%;
+	width: 100.4%;
 	min-height: 20em;
   height: 56vh;
   overflow: auto;
@@ -114,6 +116,15 @@ body {
 	height: 12.5%;
 }
 
+.nav-list-info img{
+	position: absolute;
+	width: 3em; 
+	top: 5vh;
+	left: 42.5%;
+}
+
+// https://www.iconfinder.com/icons/115714/email_mail_send_icon#size=256
+
 .nav-list p{
 	font-size: 160%;
 	position: static;
@@ -121,6 +132,16 @@ body {
 	text-decoration: none;
 	text-align: center;
 	margin: 2.4vh 0;
+}
+
+#info-s{
+	font-size: 160%;
+	position: static;
+	color: #e8e8e8;
+	font-family: 'Roboto Slab', serif;
+	text-decoration: none;
+	text-align: center;
+	margin: 9.7vh 0;
 }
 
 .willkommen-l{
@@ -187,19 +208,19 @@ body {
 }
 
 .willkommen-s {
-	background-color: red;
+	background-color: #e8e8e8;
 }
 
 .ubermich-s {
-	background-color: orange;
+	background-color: #e8e8e8;
 }
 
 .angebote-s {
-	background-color: yellow;
+	background-color: #e8e8e8;
 }
 
 .info-s {
-	background-color: grey;
+	background-color: #e8e8e8;
 }
 //LAYOUT -> END SITES
 

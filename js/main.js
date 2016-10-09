@@ -2,36 +2,58 @@
 $(document).ready(function(){
 
 
-$('#loading').animate({width: 200, marginLeft: 0}, {duration: 1000});
+
+// START -> NAVBAR ANIMATION
 
 $('.nav-list').mouseenter(function(){
-	$(this).animate({width: '+=3vw'},'fast')
+	$(this).animate({width: '+=2vw'},'fast')
 	.css('background-image','url(../img/45degreee.png)')
 	.css('font-weight','900')
 	.css('color','#008080');
 
 }).mouseleave(function(){
-	$(this).animate({width: '-=3vw'},'fast')
-	.css('background-image','url(../img/45degreeeLightblue.png)');
+	$(this).animate({width: '-=2vw'},'fast');
+	$(this).css('background-image','url(../img/45degreeeLightblue.png)');
 	$(this).css('font-weight','normal')
 	.css('color','#e8e8e8');
 });
 
 
 
-// START SMOOTH SCROLLING
+$('.nav-list-info').mouseenter(function(){
+	$('#mail').attr("src",'img/mailblue.png');
+	$(this).css('background-image','url(../img/45degreee.png)');
+	$(this).css('font-weight','900')
+	$('#info-s').css('color','#008080');
 
-$('.willkommen-l').click(function(){
+}).mouseleave(function(){
+	$('#mail').attr("src",'img/mail.png');
+	$(this).css('background-image','url(../img/45degreeeLightblue.png)');
+	$(this).css('font-weight','normal')
+	$('#info-s').css('color','#e8e8e8');
+});
+
+// END -> NAVBAR ANIMATION
+
+
+
+// START -> SMOOTH SCROLLING
+
+$('.willkommen-l').mouseenter(function(){
 	$('.content').scrollTo('.willkommen-s',500);
 });
 
-$('.ubermich-l').click(function(){
+$('.ubermich-l').mouseenter(function(){
 	$('.content').scrollTo('.ubermich-s',500);
 });
 
-$('.angebote-l').click(function(){
+$('.angebote-l').mouseenter(function(){
 	$('.content').scrollTo('.angebote-s',500);
 });
-// END SMOOTH SCROLLING
+
+$('.info-l').mouseenter(function(){
+	$('.content').scrollTo('.info-s',500);
+});
+// END -> SMOOTH SCROLLING
 
 });
