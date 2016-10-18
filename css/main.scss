@@ -84,8 +84,8 @@ body {
 
 //LAYOUT -> START NAVBAR
 .navbar{
+	background-image: url(../img/45degreee.png);
 	position: absolute;
-	background-color: green;
 	z-index: 1;
 	width: 19.5em;
 	height: 100%;
@@ -95,7 +95,7 @@ body {
 	background-image: url(../img/45degreeeDarkblue.png);
 	background-color: #008080;
 	position: absolute;
-	height: 100%;
+	height: 12.5%;
 	width: 100%;
 }
 
@@ -147,12 +147,24 @@ body {
 .willkommen-l{
 }
 
+.willkommen-b{
+	top:12.5%;
+}
+
 .ubermich-l{
 	top: 25%;
 }
 
+.ubermich-b{
+	top: 37.5%;
+}
+
 .angebote-l{
 	top: 50%;
+}
+
+.angebote-b{
+	top: 62.5%;
 }
 
 .info-l{ 
@@ -162,39 +174,6 @@ body {
 //LAYOUT -> END NAVBAR
 
 
-//LAYOUT -> START FIXED POSITION
-
-.bar1, .bar2, .bar3 {
-	background-color: blue;
-	position: absolute;
-	min-width: 66em;
-	width: 100%;
-	height: 0.6em;
-}
-
-.bar1{
-	top: 0em;
-}
-
-.bar2{
-	top: 1em;
-}
-
-.bar3{
-	bottom: 2.4em;
-}
-
-.footer {
-	background-color: blue;
-	position: absolute;
-	min-width: 66em;
-	width: 100%;
-	height: 2em;
-	bottom: 0em;
-}
-
-//LAYOUT -> END FIXED POSITION
-
 
 //LAYOUT -> START SITES
 .site {
@@ -202,7 +181,7 @@ body {
 	display: inline-block;
 	width: 100%;
 	height: 56vh;
-	min-height: 20em; //Ev. abändern
+	min-height: 20em;
 	margin-top:  0em;
 	margin-bottom: 0em;
 }
@@ -224,34 +203,15 @@ body {
 }
 //LAYOUT -> END SITES
 
-
-// TEST-CHAMBER
-
-
-.trapezoid:after{
-    position: absolute;
-    content: '';
-    left: -50px;
-    top: 0px;
-    border-style: solid;
-    border-color: blue transparent blue transparent;
-    border-width: 8.8vh 0px 0px 50px;
-}
-
-.trapezoid:before{
-    position: absolute;
-    content: '';
-    right: -50px;
-    top: 0px;
-    border-style: solid;
-    border-color: blue transparent blue transparent;
-    border-width: 0px 50px 8.8vh 0px;
-}
+// END -> LAYOUT
 
 
-#test{
-	position: relative;
-	background-color: red;
-	width: 100px;
-	height: 100px;
+
+// START -> CONTENT
+
+// CONTENT -> WILLKOMMEN
+
+
+.willkommen-s{
+	background-image: url(../img/water1.png);
 }

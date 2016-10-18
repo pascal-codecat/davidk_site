@@ -3,15 +3,15 @@
 ---
 <div class="height-container">
 
-
   <div class="website-container">
     <div class="navbar">
-      <div class="nav-list-blank">
-        <div class="willkommen-l nav-list"><p id="willkommen-s">Willkommen</p></div>
-        <div class="ubermich-l nav-list"><p id="ubermich-s">Über mich</p></div>
-        <div class="angebote-l nav-list"><p id="angebote-s">Angebote</p></div>
-        <div class="info-l nav-list-info"><img id="mail" src="img/mail.png"><p id="info-s">Kontakt</p></div>
-      </div>
+      <div class="willkommen-l nav-list"><p id="willkommen-s">Willkommen</p></div>
+      <div class="nav-list-blank willkommen-b"></div>
+      <div class="ubermich-l nav-list"><p id="ubermich-s">Über mich</p></div>
+      <div class="nav-list-blank ubermich-b"></div>
+      <div class="angebote-l nav-list"><p id="angebote-s">Angebote</p></div>
+      <div class="nav-list-blank angebote-b"></div>
+      <div class="info-l nav-list-info"><img id="mail" src="img/mail.png"><p id="info-s">Kontakt</p></div>
     </div>
     <div class="width_limit-container">
       <div class="insidebar-vertical"></div>
@@ -20,9 +20,6 @@
         <div class="content">
 
           <div class="willkommen-s site" id="willkommen-s">
-            <p>
-            {{ site.posts[0]}}
-            </p>
           </div> 
           <div class="ubermich-s site" id="ubermich-s">
             <p>

@@ -5,18 +5,40 @@ $(document).ready(function(){
 
 // START -> NAVBAR ANIMATION
 
-$('.nav-list').mouseenter(function(){
-	$(this).animate({width: '+=2vw'},'fast')
+var select = false;
+
+$('.willkommen-l')
+	.animate({width: '+=2vw'},'fast')
 	.css('background-image','url(../img/45degreee.png)')
 	.css('font-weight','900')
-	.css('color','#008080');
+	.css('color','#008080')
+	.addClass('extended');
+	select = true
 
-}).mouseleave(function(){
-	$(this).animate({width: '-=2vw'},'fast');
-	$(this).css('background-image','url(../img/45degreeeLightblue.png)');
-	$(this).css('font-weight','normal')
-	.css('color','#e8e8e8');
+
+
+
+$('.nav-list').mouseenter(function(){
+
+	$('.extended').animate({width: '-=2vw'},'fast')
+		.css('background-image','url(../img/45degreeeLightblue.png)')
+		.css('font-weight','normal')
+		.css('color','#e8e8e8')
+		.removeClass('extended');
+		select = false
+
+}).mouseenter(function(){
+	if (select == false) {
+		$(this).animate({width: '+=2vw'},'fast');
+		$(this).css('background-image','url(../img/45degreee.png)');
+		$(this).css('font-weight','900');
+		$(this).css('color','#008080');
+		$(this).addClass('extended');
+		select = true;
+} else {};
+
 });
+
 
 
 
