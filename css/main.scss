@@ -22,7 +22,7 @@ body {
 .website-container {
   background-image: url(../img/45degreee.png);
   position: absolute;
-  height: 70%; 
+  height: 70%;
   min-width: 56em;
   width: 80%;
   top: 14%;
@@ -34,7 +34,7 @@ body {
   position: absolute;
   overflow: hidden;
   right: 0%;
-  height: 100%; 
+  height: 100%;
   width: 65%;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .nav-list-info img{
 	position: absolute;
-	width: 3em; 
+	width: 3em;
 	top: 5vh;
 	left: 42.5%;
 }
@@ -167,7 +167,7 @@ body {
 	top: 62.5%;
 }
 
-.info-l{ 
+.info-l{
 	bottom: 0%;
 	height: 25%;
 }
@@ -210,8 +210,89 @@ body {
 // START -> CONTENT
 
 // CONTENT -> WILLKOMMEN
-
-
 .willkommen-s{
 	background-image: url(../img/water1.png);
+  background-size: cover;
+	// Desinged by Freepik http://www.freepik.com/
 }
+
+.willkommen-bei{
+  font-family: 'Quattrocento Sans', sans-serif;
+	color: #2b6d6d;
+  display: none;
+  font-size: 190%;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.willkommen-title{
+  font-family: 'Quattrocento Sans', sans-serif;
+	color: #026798;
+  display: none;
+  font-size: 290%;
+  text-align: center;
+  margin-top: 18vh;
+}
+
+.willkommen-title p{
+	margin-top: 0.7em;
+	font-size: 45%;
+	color: #609ebb;
+}
+
+.willkommen-text{
+	text-align: center;
+	color: #56627b;
+	display: none;
+	margin: auto;
+	width: 45%;
+}
+
+.willkommen-text p{
+	font-size: 70%;
+	opacity: 0.8;
+}
+
+//CONTENT -> END WILLKOMMEN
+
+// CONTENT -> START ÜBERMICH
+
+.ubermich-logo{
+	background-image: url(../img/45degreeeDarkblue.png);
+	position: absolute;
+	right: 0%;
+	height: 100%;
+	width: 15vw;
+}
+
+.ubermich-logo img{
+	position: absolute;
+	top: 12%;
+	right: 0%;
+	width: 95%;
+}
+
+.ubermich-text{
+	position: absolute;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	height: 100%;
+	width: 33vw;
+}
+
+.ubermich-text h1{
+  font-family: 'Quattrocento Sans', sans-serif;
+	color: #2b6d6d;
+	margin-bottom: 1em;
+}
+
+.ubermich-text span{
+	font-size: 1.9vh;
+}
+// CONTENT -> END ÜBERMICH
+
+// CONTENT -> START ANGEBOTE
+
+
+
+// CONTENT -> END ANGEBOTE

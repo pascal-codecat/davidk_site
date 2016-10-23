@@ -2,6 +2,10 @@
 title:  "willkommenSeite"
 ---
 
-Übermich
+* Ich habe mich spezialisiert, Unternehmen, Führungskräfte und Einzelpersonen in ihrer ganz eigenen Entwicklung und in ihrem Wachstum zu begleiten.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+* Mit den Beteiligten mache ich mich auf die Suche nach den notwendigen Energiequellen für anstehende Entwicklungsprozesse. Dabei nutze ich verschieden Werkzeuge und wirke mit meiner unterstützenden Haltung, die von Wertschätzung und dem Glauben an das menschliche Potential des Wachstums geprägt ist.
+
+* Ich arbeite ressourcenorientiert nach dem systemischen Beratungsverständnis der Wiener Schule.
+
+* Meine Arbeitsschwerpunkte sind Führungskräftetrainings, Coaching, Konfliktklärungsmoderationen und das Begleiten von Veränderungsprozessen.

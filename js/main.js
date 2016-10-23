@@ -1,7 +1,25 @@
 
 $(document).ready(function(){
 
+// START -> ANIMATED FUNCTION
 
+var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+$('.willkommen-bei')
+		.addClass('animated zoomIn')
+		.css('display', 'block')
+		.css('-webkit-animation-duration', '1.5s')
+		.css('-ms-animation-duration', '1.5s')
+	.one(animationEnd, function() {
+		$(this).css('display', 'none');
+		$('.willkommen-title, .willkommen-text').css('display', 'block')
+		.css('-webkit-animation-duration', '2s')
+		.css('-ms-animation-duration', '2s')
+		.addClass('animated fadeIn');
+
+	});
+
+// END -> ANIMATED FUNCTION
 
 // START -> NAVBAR ANIMATION
 
