@@ -262,7 +262,7 @@ body {
 	position: absolute;
 	right: 0%;
 	height: 100%;
-	width: 15vw;
+	width: 14vw;
 }
 
 .ubermich-logo img{
@@ -292,6 +292,48 @@ body {
 // CONTENT -> END ÜBERMICH
 
 // CONTENT -> START ANGEBOTE
+
+.angebote-navbar{
+	background-image: url(../img/45degreeeDarkblue.png);
+	position: absolute;
+	height: 10vh;
+	width: 100%;
+}
+
+.angebote-navbar-content{
+	position: absolute;
+	left: 3%;
+	height: 95%;
+	width: 95%;
+}
+
+.angebote-navbar span{
+	font-family: 'Quattrocento Sans', sans-serif;
+	display: inline-block;
+	color: #e8e8e8;
+	font-weight: bold;
+	font-size: 1.9vh;
+	margin-right: 1.5em;
+	margin-top: 0.8em;
+}
+
+.angebote-text{
+	position: absolute;
+	margin-top: 11vh;
+	margin-left: 2.5em;
+	width: 48vw;
+}
+
+.angebote-text h1{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #2b6d6d;
+	margin-left: -0.5em;
+	margin-bottom: 1em;
+}
+
+.angebote-text span{
+	font-size: 1.9vh;
+}
 
 
 
