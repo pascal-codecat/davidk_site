@@ -9,7 +9,6 @@ body {
 // Background pattern from subtlepatterns.com
 
 
-
 // START -> LAYOUT
 
 .height-container {
@@ -75,7 +74,7 @@ body {
 .content{
 	padding-left: 0em;
 	padding-right: 2em;
-	width: 100.4%;
+	width: 100.45%;
 	min-height: 20em;
   height: 56vh;
   overflow: auto;
@@ -95,7 +94,7 @@ body {
 	background-image: url(../img/45degreeeDarkblue.png);
 	background-color: #008080;
 	position: absolute;
-	height: 12.5%;
+	height: 10%;
 	width: 100%;
 }
 
@@ -103,24 +102,28 @@ body {
 	background-image: url(../img/45degreeeLightblue.png);
 	background-color: white;
 	position: absolute;
+	align-items: center;
+	display: flex;
 	color: #e8e8e8;
 	width: 100%;
-	height: 12.5%;
+	height: 10%;
 }
 
 .nav-list-info{
 	background-image: url(../img/45degreeeLightblue.png);
 	background-color: #00c3c3;
 	position: absolute;
+	align-items: center;
+	display: flex;
 	width: 100%;
-	height: 12.5%;
+	height: 10%;
 }
 
 .nav-list-info img{
 	position: absolute;
-	width: 3em;
-	top: 5vh;
-	left: 42.5%;
+	top: 41%;
+	width: 2.2em;
+	left: 61%;
 }
 
 // https://www.iconfinder.com/icons/115714/email_mail_send_icon#size=256
@@ -128,48 +131,57 @@ body {
 .nav-list p{
 	font-size: 160%;
 	position: static;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Roboto Slab', serif;
 	text-decoration: none;
-	text-align: center;
-	margin: 2.4vh 0;
 }
 
 #info-s{
 	font-size: 160%;
 	position: static;
 	color: #e8e8e8;
+	margin-left: 3.3em;
+	margin-right: 7em;
 	font-family: 'Roboto Slab', serif;
 	text-decoration: none;
 	text-align: center;
-	margin: 9.7vh 0;
 }
 
 .willkommen-l{
 }
 
 .willkommen-b{
-	top:12.5%;
+	top:10%;
 }
 
 .ubermich-l{
-	top: 25%;
+	top: 20%;
 }
 
 .ubermich-b{
-	top: 37.5%;
+	top: 30%;
 }
 
-.angebote-l{
+.vita-l{
+	top: 40%;
+}
+
+.vita-b{
 	top: 50%;
 }
 
+.angebote-l{
+	top: 60%;
+}
+
 .angebote-b{
-	top: 62.5%;
+	top: 70%;
 }
 
 .info-l{
 	bottom: 0%;
-	height: 25%;
+	height: 20%;
 }
 //LAYOUT -> END NAVBAR
 
@@ -180,7 +192,7 @@ body {
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	height: 56vh;
+	height: 56.05vh;
 	min-height: 20em;
 	margin-top:  0em;
 	margin-bottom: 0em;
@@ -261,7 +273,7 @@ body {
 	background-image: url(../img/45degreeeDarkblue.png);
 	position: absolute;
 	right: 0%;
-	height: 100%;
+	height: 102%;
 	width: 14vw;
 }
 
@@ -287,9 +299,39 @@ body {
 }
 
 .ubermich-text span{
-	font-size: 1.9vh;
+	font-size: 1vw;
 }
 // CONTENT -> END ÜBERMICH
+
+// CONTENT -> START VITA
+
+.vita-logo{
+	background-image: url(../img/45degreeeDarkblue.png);
+	position: absolute;
+	right: 0%;
+	height: 102%;
+	width: 14vw;
+}
+
+.vita-text{
+	position: absolute;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	height: 100%;
+	width: 33vw;
+}
+
+.vita-text span{
+	font-size: 0.85vw;
+}
+
+.vita-text h1{
+  font-family: 'Quattrocento Sans', sans-serif;
+	color: #2b6d6d;
+	margin-bottom: 0.7em;
+}
+
+// CONTENT -> END VITA
 
 // CONTENT -> START ANGEBOTE
 
@@ -312,16 +354,51 @@ body {
 	display: inline-block;
 	color: #e8e8e8;
 	font-weight: bold;
-	font-size: 1.9vh;
+	font-size: 0.98vw;
 	margin-right: 1.5em;
 	margin-top: 0.8em;
 }
 
+@-moz-document url-prefix() {
+	.angebote-navbar span{
+			font-size: 0.85vw;
+			margin-top: 1em;
+	}
+}
+
+.angebote-navbar span:hover {
+	background-color: blue;
+    color: #FF00FF;
+}
+
+.angebote-logo{
+	background-image: url(../img/45degreeeDarkblue.png);
+	visibility: hidden;
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	height: 100%;
+	width: 14vw;
+}
+
+.angebote-logo img{
+	position: absolute;
+	top: 18%;
+	right: 0%;
+	width: 95%;
+}
+
 .angebote-text{
+	visibility: hidden;
 	position: absolute;
 	margin-top: 11vh;
 	margin-left: 2.5em;
-	width: 48vw;
+	width: 33vw;
+}
+
+
+.angebote-visible{
+	visibility: visible;
 }
 
 .angebote-text h1{
@@ -332,9 +409,33 @@ body {
 }
 
 .angebote-text span{
-	font-size: 1.9vh;
+	font-size: 1vw;
 }
 
-
-
 // CONTENT -> END ANGEBOTE
+
+
+// CONTENT -> START KONTAKT
+
+.info-text{
+	position: absolute;
+	margin-top: 7vh;
+	text-align: center;
+	width: 48vw;
+}
+
+.info-text h1{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #2b6d6d;
+	margin-left: -0.5em;
+	margin-bottom: 1em;
+}
+
+.info-text h4{
+	font-weight: bold;
+}
+
+.info-text span{
+	font-size: 1vw;
+}
+// CONTENT -> END KONTAKT

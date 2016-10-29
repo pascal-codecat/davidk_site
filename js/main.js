@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-// START -> ANIMATED FUNCTION
+// START -> ANIMATION
 
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -19,7 +19,48 @@ $('.willkommen-bei')
 
 	});
 
-// END -> ANIMATED FUNCTION
+// END -> ANIMATION
+
+// START -> NAVBAR ANGEBOTE
+$('.angebote-start').addClass('angebote-visible');
+$('.angebote-logo').addClass('angebote-visible');
+
+$('.angebote-navbar-content span').click(function(){
+	$('.angebote-logo').removeClass('angebote-visible');
+});
+
+$('#angebote-fuhrung').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-fuhrung').addClass('angebote-visible');
+});
+
+$('#angebote-coaching').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-coaching').addClass('angebote-visible');
+});
+
+$('#angebote-konflikt').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-konflikt').addClass('angebote-visible');
+});
+
+$('#angebote-begleitung').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-begleitung').addClass('angebote-visible');
+});
+
+$('#angebote-trainings').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-trainings').addClass('angebote-visible');
+});
+
+$('#angebote-team').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-team').addClass('angebote-visible');
+});
+
+
+// START -> NAVBAR ANGEBOTE
 
 // START -> NAVBAR ANIMATION
 
@@ -85,6 +126,10 @@ $('.willkommen-l').mouseenter(function(){
 
 $('.ubermich-l').mouseenter(function(){
 	$('.content').scrollTo('.ubermich-s',500);
+});
+
+$('.vita-l').mouseenter(function(){
+	$('.content').scrollTo('.vita-s',500);
 });
 
 $('.angebote-l').mouseenter(function(){

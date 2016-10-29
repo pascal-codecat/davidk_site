@@ -1,0 +1,1 @@
+Wenn Ihr Team vor dem nächsten Entwicklungsschritt steht, neue Herausforderungen anstehen oder es eine problematische Situation zu bewältigen gilt, dann begleite ich Sie gerne professionell in Ihrem Veränderungsprozess.

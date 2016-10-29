@@ -9,6 +9,8 @@
       <div class="nav-list-blank willkommen-b"></div>
       <div class="ubermich-l nav-list"><p id="ubermich-s">Über mich</p></div>
       <div class="nav-list-blank ubermich-b"></div>
+      <div class="vita-l nav-list"><p id="vita-s">Vita</p></div>
+      <div class="nav-list-blank vita-b"></div>
       <div class="angebote-l nav-list"><p id="angebote-s">Angebote</p></div>
       <div class="nav-list-blank angebote-b"></div>
       <div class="info-l nav-list-info"><img id="mail" src="img/mail.png"><p id="info-s">Kontakt</p></div>
@@ -40,40 +42,76 @@
             </div>
             <div class="ubermich-text">
               <h1>Über mich</h1>
+              <span> {{ site.posts[0]}} </span>
+            </div>
+          </div>
+
+          <div class="vita-s site" id="vita-s">
+            <div class="vita-logo"></div>
+            <div class="vita-text">
+              <h1>Vita</h1>
               <span> {{ site.posts[1]}} </span>
             </div>
           </div>
 
           <div class="angebote-s site" id="angebote-s">
+            <div class="angebote-logo">
+              <img src="img/davidK-Profil2.jpg" alt="davidK-Profil2" />
+            </div>
             <div class="angebote-navbar">
               <div class="angebote-navbar-content">
-                <span>Führungskräfteentwicklung</span>
-                <span>Coaching</span>
-                <span>Konfliktmoderation</span>
-                <span>Begleitung von Veränderungsprozessen</span>
-                <span>Trainings zu verschiedenen Sozialkompetenzen</span>
-                <span>Teamentwicklung</span>
+                <span id="angebote-fuhrung">Führungskräfteentwicklung</span>
+                <span id="angebote-coaching">Coaching</span>
+                <span id="angebote-konflikt">Konfliktmoderation</span>
+                <span id="angebote-begleitung">Begleitung von Veränderungsprozessen</span>
+                <span id="angebote-trainings">Trainings zu verschiedenen Sozialkompetenzen</span>
+                <span id="angebote-team">Teamentwicklung</span>
               </div>
             </div>
-            
-            <div class="angebote-text">
+
+            <div class="angebote-text angebote-start">
               <h1>Angebote</h1>
               <span>{{ site.posts[2]}}</span>
             </div>
+
+            <div class="angebote-text angebote-fuhrung">
+              <h1>Führungskräfteentwicklung</h1>
+              <span>{{ site.posts[3]}}</span>
+            </div>
+
+            <div class="angebote-text angebote-coaching">
+              <h1>Coaching</h1>
+              <span>{{ site.posts[4]}}</span>
+            </div>
+
+            <div class="angebote-text angebote-konflikt">
+              <h1>Konfiktmoderation</h1>
+              <span>{{ site.posts[5]}}</span>
+            </div>
+
+            <div class="angebote-text angebote-begleitung">
+              <h1>Begleitung von Veränderungsprozessen</h1>
+              <span>{{ site.posts[6]}}</span>
+            </div>
+
+            <div class="angebote-text angebote-trainings">
+              <h1>Trainings zu verschiedenen Sozialkompetenzen</h1>
+              <span>{{ site.posts[7]}}</span>
+            </div>
+
+            <div class="angebote-text angebote-team">
+              <h1>Teamentwicklung</h1>
+              <span>{{ site.posts[8]}}</span>
+            </div>
+
           </div>
 
           <div class="info-s site">
-            <p>
-            Kontaktseite<br><br>
-
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            </p>
+            <div class="info-text">
+              <h1>Kontakt</h1>
+              <h4>Ich freue mich auf einenen Anruf oder eine E-Mail.</h4>
+              <span>{{site.posts[9]}}</span>
+            </div>
           </div>
 
         </div>
