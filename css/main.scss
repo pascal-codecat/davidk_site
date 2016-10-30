@@ -256,7 +256,7 @@ body {
 	font-weight: 200;
 	color: #026798;
   display: none;
-  font-size: 290%;
+  font-size: 310%;
   text-align: center;
   margin-top: 18vh;
 }
@@ -463,5 +463,27 @@ body {
 
 .info-text span{
 	font-size: 1vw;
+}
+.made-by{
+	position: absolute;
+	opacity: 0.5;
+	left: 45%;
+	bottom: -40%;
+}
+
+.made-by a{
+	text-decoration: none;
+}
+
+.made-by p{
+	font-size: 80%;
+	color: grey;
+}
+
+.made-by-logo{
+	top: 30%;
+	right: -35%;
+	position: absolute;
+	height: 1em;
 }
 // CONTENT -> END KONTAKT
