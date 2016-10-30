@@ -68,9 +68,9 @@ var select = false;
 
 $('.willkommen-l')
 	.animate({width: '+=2vw'},'fast')
-	.css('background-image','url(../img/45degreee.png)')
+	.css('background-color','white')
 	.css('font-weight','900')
-	.css('color','#008080')
+	.css('color','#076e7b')
 	.addClass('extended');
 	select = true
 
@@ -80,7 +80,7 @@ $('.willkommen-l')
 $('.nav-list').mouseenter(function(){
 
 	$('.extended').animate({width: '-=2vw'},'fast')
-		.css('background-image','url(../img/45degreeeLightblue.png)')
+		.css('background-color','#00b5cc')
 		.css('font-weight','normal')
 		.css('color','#e8e8e8')
 		.removeClass('extended');
@@ -89,9 +89,9 @@ $('.nav-list').mouseenter(function(){
 }).mouseenter(function(){
 	if (select == false) {
 		$(this).animate({width: '+=2vw'},'fast');
-		$(this).css('background-image','url(../img/45degreee.png)');
+		$(this).css('background-color','white');
 		$(this).css('font-weight','900');
-		$(this).css('color','#008080');
+		$(this).css('color','#076e7b');
 		$(this).addClass('extended');
 		select = true;
 } else {};
@@ -103,13 +103,13 @@ $('.nav-list').mouseenter(function(){
 
 $('.nav-list-info').mouseenter(function(){
 	$('#mail').attr("src",'img/mailblue.png');
-	$(this).css('background-image','url(../img/45degreee.png)');
+	$(this).css('background-color','white');
 	$(this).css('font-weight','900')
-	$('#info-s').css('color','#008080');
+	$('#info-s').css('color','#076e7b');
 
 }).mouseleave(function(){
 	$('#mail').attr("src",'img/mail.png');
-	$(this).css('background-image','url(../img/45degreeeLightblue.png)');
+	$(this).css('background-color','#00b5cc');
 	$(this).css('font-weight','normal')
 	$('#info-s').css('color','#e8e8e8');
 });

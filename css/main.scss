@@ -4,7 +4,8 @@
 @charset "utf-8";
 
 body {
-	background-image: url(../img/zebra.png);
+	background-color: #9cbbbf;
+	background-image: url(../img/seigaiha.png);
 }
 // Background pattern from subtlepatterns.com
 
@@ -19,50 +20,49 @@ body {
 }
 
 .website-container {
-  background-image: url(../img/45degreee.png);
+	background-color: white;
+	outline: 0.2em solid #076e7b;
   position: absolute;
   height: 70%;
   min-width: 56em;
-  width: 80%;
+  width: 70%;
   top: 14%;
-  left: 10%;
+  left: 15%;
 }
 
 .width_limit-container {
-  background-image: url(../img/45degreee.png);
+	background-color: white;
   position: absolute;
   overflow: hidden;
+	z-index: 2;
   right: 0%;
   height: 100%;
-  width: 65%;
+  width: 75%;
 }
 
 .content-container{
-  background-image: url(../img/45degreee.png);
+  background-color: white;
   position: relative;
 	overflow: hidden;
 	max-width: 60em;
 	min-width: 20em;
-	padding-left: 1em;
+	padding-left: 1.2em;
 	right: 0%;
 	top: 10%;
   height:80%;
 }
 
 .insidebar-vertical{
-	background-image: url(../img/45degreeeDarkblue.png);
-	background-color: pink;
+	background-color:	#026798;
 	position: absolute;
-	z-index: 1;
 	height: 100%;
 	left: 98.8%;
 	width: 2em;
 }
 
 .insidebar-horizontal{
-	background-image: url(../img/45degreeeDarkblue.png);
 	position: absolute;
-	background-color: pink;
+	background-color: #026798;
 	margin-left: 1em;
 	width: 100%;
 	height: 0.9em;
@@ -74,33 +74,44 @@ body {
 .content{
 	padding-left: 0em;
 	padding-right: 2em;
-	width: 100.45%;
+	width: 102%;
 	min-height: 20em;
-  height: 56vh;
+  height: 55.9vh;
   overflow: auto;
   background-color: #e8e8e8;
+	border-bottom: solid thin #076e7b;
+	border-left: solid thin #076e7b;
 }
 
 //LAYOUT -> START NAVBAR
 .navbar{
-	background-image: url(../img/45degreee.png);
 	position: absolute;
 	z-index: 1;
-	width: 19.5em;
+	width:  calc(9em + 6vw);
 	height: 100%;
 }
 
 .nav-list-blank{
-	background-image: url(../img/45degreeeDarkblue.png);
-	background-color: #008080;
+	z-index: -1;
+	background-color: #078d9e;
 	position: absolute;
 	height: 10%;
-	width: 100%;
+	width: 102.5%;
+}
+
+.arrow-up {
+	position: absolute;
+	bottom: 100%;
+	right: 0%;
+  width: 0;
+  height: 0;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-bottom: 1em solid #046a77;
 }
 
 .nav-list{
-	background-image: url(../img/45degreeeLightblue.png);
-	background-color: white;
+	background-color: #00b5cc;
 	position: absolute;
 	align-items: center;
 	display: flex;
@@ -110,8 +121,7 @@ body {
 }
 
 .nav-list-info{
-	background-image: url(../img/45degreeeLightblue.png);
-	background-color: #00c3c3;
+	background-color: #00b5cc;
 	position: absolute;
 	align-items: center;
 	display: flex;
@@ -121,29 +131,30 @@ body {
 
 .nav-list-info img{
 	position: absolute;
-	top: 41%;
-	width: 2.2em;
-	left: 61%;
+	top: 42%;
+	width: 1.8em;
+	left: 62%;
 }
 
 // https://www.iconfinder.com/icons/115714/email_mail_send_icon#size=256
 
 .nav-list p{
-	font-size: 160%;
+	font-size: 145%;
+	font-weight: normal;
 	position: static;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Crete Round', serif;
 	text-decoration: none;
 }
 
 #info-s{
-	font-size: 160%;
+	font-size: 140%;
 	position: static;
 	color: #e8e8e8;
 	margin-left: 3.3em;
 	margin-right: 7em;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Crete Round', serif;
 	text-decoration: none;
 	text-align: center;
 }
@@ -183,6 +194,7 @@ body {
 	bottom: 0%;
 	height: 20%;
 }
+
 //LAYOUT -> END NAVBAR
 
 
@@ -191,6 +203,7 @@ body {
 .site {
 	position: relative;
 	display: inline-block;
+	z-index: 1;
 	width: 100%;
 	height: 56.05vh;
 	min-height: 20em;
@@ -239,6 +252,8 @@ body {
 
 .willkommen-title{
   font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Crete Round', serif;
+	font-weight: 200;
 	color: #026798;
   display: none;
   font-size: 290%;
@@ -270,7 +285,8 @@ body {
 // CONTENT -> START ÜBERMICH
 
 .ubermich-logo{
-	background-image: url(../img/45degreeeDarkblue.png);
+	border-left: solid #076e7b;
+	background-color: #078d9e;
 	position: absolute;
 	right: 0%;
 	height: 102%;
@@ -279,9 +295,9 @@ body {
 
 .ubermich-logo img{
 	position: absolute;
-	top: 12%;
-	right: 0%;
-	width: 95%;
+	top: 17%;
+	right: 5.3%;
+	width: 90%;
 }
 
 .ubermich-text{
@@ -293,8 +309,9 @@ body {
 }
 
 .ubermich-text h1{
-  font-family: 'Quattrocento Sans', sans-serif;
-	color: #2b6d6d;
+	font-family: 'Crete Round', serif;
+	font-weight: lighter;
+	color: #076e7b;
 	margin-bottom: 1em;
 }
 
@@ -305,8 +322,12 @@ body {
 
 // CONTENT -> START VITA
 
+.vita-s{
+}
+
 .vita-logo{
-	background-image: url(../img/45degreeeDarkblue.png);
+	border-left: solid #076e7b;
+	background-color: #078d9e;
 	position: absolute;
 	right: 0%;
 	height: 102%;
@@ -326,8 +347,9 @@ body {
 }
 
 .vita-text h1{
-  font-family: 'Quattrocento Sans', sans-serif;
-	color: #2b6d6d;
+	font-family: 'Crete Round', serif;
+	font-weight: lighter;
+	color: #076e7b;
 	margin-bottom: 0.7em;
 }
 
@@ -336,7 +358,8 @@ body {
 // CONTENT -> START ANGEBOTE
 
 .angebote-navbar{
-	background-image: url(../img/45degreeeDarkblue.png);
+	border-bottom: solid #026798;
+	background-color: #0976aa;
 	position: absolute;
 	height: 10vh;
 	width: 100%;
@@ -350,10 +373,10 @@ body {
 }
 
 .angebote-navbar span{
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Crete Round', serif;
 	display: inline-block;
 	color: #e8e8e8;
-	font-weight: bold;
+	font-weight: lighter;
 	font-size: 0.98vw;
 	margin-right: 1.5em;
 	margin-top: 0.8em;
@@ -367,12 +390,13 @@ body {
 }
 
 .angebote-navbar span:hover {
-	background-color: blue;
-    color: #FF00FF;
+	background-color: white;
+  color: #076e7b;
 }
 
 .angebote-logo{
-	background-image: url(../img/45degreeeDarkblue.png);
+	border-left: solid #076e7b;
+	background-color: #078d9e;
 	visibility: hidden;
 	position: absolute;
 	right: 0%;
@@ -383,9 +407,9 @@ body {
 
 .angebote-logo img{
 	position: absolute;
-	top: 18%;
-	right: 0%;
-	width: 95%;
+	top: 27%;
+	right: 5.3%;
+	width: 90%;
 }
 
 .angebote-text{
@@ -402,8 +426,9 @@ body {
 }
 
 .angebote-text h1{
-	font-family: 'Quattrocento Sans', sans-serif;
-	color: #2b6d6d;
+	font-family: 'Crete Round', serif;
+	font-weight: lighter;
+	color: #076e7b;
 	margin-left: -0.5em;
 	margin-bottom: 1em;
 }
@@ -425,8 +450,9 @@ body {
 }
 
 .info-text h1{
-	font-family: 'Quattrocento Sans', sans-serif;
-	color: #2b6d6d;
+	font-family: 'Crete Round', serif;
+	font-weight: lighter;
+	color: #076e7b;
 	margin-left: -0.5em;
 	margin-bottom: 1em;
 }
