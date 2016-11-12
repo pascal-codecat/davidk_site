@@ -373,19 +373,12 @@ body {
 	display: inline-block;
 	color: #e8e8e8;
 	font-weight: lighter;
-	font-size: 0.98vw;
+	font-size: 0.95vw;
 	margin-right: 1.5em;
 	margin-top: 0.8em;
 }
 
 @-moz-document url-prefix() {
-	.angebote-navbar span{
-			font-size: 0.85vw;
-			margin-top: 1em;
-	}
-}
-
-@-ms-document url-prefix() {
 	.angebote-navbar span{
 			font-size: 0.85vw;
 			margin-top: 1em;
