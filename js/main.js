@@ -25,10 +25,6 @@ $('.willkommen-bei')
 $('.angebote-start').addClass('angebote-visible');
 $('.angebote-logo').addClass('angebote-visible');
 
-$('.angebote-navbar-content span').click(function(){
-	$('.angebote-logo').removeClass('angebote-visible');
-});
-
 $('#angebote-fuhrung').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-fuhrung').addClass('angebote-visible');

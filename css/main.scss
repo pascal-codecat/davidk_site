@@ -123,17 +123,15 @@ body {
 .nav-list-info{
 	background-color: #00b5cc;
 	position: absolute;
-	align-items: center;
-	display: flex;
 	width: 100%;
-	height: 10%;
+	height: 0%;
 }
 
-.nav-list-info img{
+#mail{
 	position: absolute;
-	top: 42%;
-	width: 1.8em;
-	left: 62%;
+	top: 55%;
+	left: 45%;
+	width: 2.2em;
 }
 
 // https://www.iconfinder.com/icons/115714/email_mail_send_icon#size=256
@@ -149,11 +147,10 @@ body {
 }
 
 #info-s{
-	font-size: 140%;
 	position: static;
+	margin: 3.3vh;
+	font-size: 145%;
 	color: #e8e8e8;
-	margin-left: 3.3em;
-	margin-right: 7em;
 	font-family: 'Crete Round', serif;
 	text-decoration: none;
 	text-align: center;
@@ -316,7 +313,7 @@ body {
 }
 
 .ubermich-text span{
-	font-size: 1vw;
+	font-size: 0.9vw;
 }
 // CONTENT -> END ÜBERMICH
 
@@ -343,7 +340,7 @@ body {
 }
 
 .vita-text span{
-	font-size: 0.85vw;
+	font-size: 0.83vw;
 }
 
 .vita-text h1{
@@ -358,8 +355,8 @@ body {
 // CONTENT -> START ANGEBOTE
 
 .angebote-navbar{
-	border-bottom: solid #026798;
-	background-color: #0976aa;
+	border-bottom: solid #076e7b;
+	background-color: #0aa6ba;
 	position: absolute;
 	height: 10vh;
 	width: 100%;
@@ -383,6 +380,13 @@ body {
 }
 
 @-moz-document url-prefix() {
+	.angebote-navbar span{
+			font-size: 0.85vw;
+			margin-top: 1em;
+	}
+}
+
+@-ms-document url-prefix() {
 	.angebote-navbar span{
 			font-size: 0.85vw;
 			margin-top: 1em;

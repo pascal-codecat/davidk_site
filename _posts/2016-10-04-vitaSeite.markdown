@@ -9,8 +9,8 @@ title:  "vitaSeite"
 <br>(Technische Universität Kaiserslautern)
 * Begleitung von jungen Menschen beim Übergang von Schule in den Beruf (BBQ)
 * Ausbildung zum Coach an der FU Berlin
-<br>Verwaltung und in sozialen Einrichtungen
-* seit 2004 selbständiger Trainer und Coach in der Industrie,
+* seit 2004 selbständiger Trainer und Coach in der Industrie, Pharmabranche,
+<br> öffentlicher Verwaltung und in sozialen Einrichtungen
 * Berater zu Entgeltsystemen (Arbeitgeberverband Südwestmetall)
 * seit 2007 Personalentwickler bei ZF Friedrichshafen AG
 * Ausbildung zum systemischen Coach und Berater (Dr. Ruth Seliger, trainconsulting)
