@@ -7,9 +7,9 @@ Static Website build with:
 * Javascript
 * Jquery
 * Markdown
-Framework:
+<br>Framework:
 * Jekyll
-Plugins:
+<br>Plugins:
 * Css-animate
 * Css-normalize
 * Jquery-scrollTo
