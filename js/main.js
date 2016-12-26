@@ -2,21 +2,6 @@
 $(document).ready(function(){
 
 
-// START -> RELOAD ON ZOOM
-	jQuery(function($){
-var windowWidth = $(window).width();
-
-$(window).resize(function() {
-    if(windowWidth != $(window).width()){
-    location.reload();
-    return;
-    }
-});
-});
-// END -> RELOAD ON ZOOM
-
-
-
 // START -> ANIMATION
 
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -163,5 +148,18 @@ $('.info-l').mouseenter(function(){
 	$('.content').scrollTo('.info-s',500);
 });
 // END -> SMOOTH SCROLLING
+
+// START -> RELOAD ON ZOOM
+	jQuery(function($){
+var windowWidth = $(window).width();
+
+$(window).resize(function() {
+    if(windowWidth != $(window).width()){
+    location.reload();
+    return;
+    }
+});
+});
+// END -> RELOAD ON ZOOM
 
 });
