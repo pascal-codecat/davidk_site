@@ -30,13 +30,13 @@ $('.willkommen-bei')
 		.css('-webkit-animation-duration', '2s')
 		.css('-ms-animation-duration', '2s')
 		.addClass('animated fadeIn');
-
-		// $('.willkommen-l').animate({width: '+=2vw'},'fast')
-		// 	.css('background-color','white')
-		// 	.css('font-weight','900')
-		// 	.css('color','#076e7b')
-		// 	.addClass('extended');
 	});
+
+	$('.willkommen-l').animate({width: '+=2vw'},'fast')
+		.css('background-color','white')
+		.css('font-weight','900')
+		.css('color','#076e7b')
+		.addClass('extended');
 
 // END -> ANIMATION
 
