@@ -32,11 +32,11 @@ $('.willkommen-bei')
 		.addClass('animated fadeIn');
 	});
 
-	$('.willkommen-l').animate({width: '+=2vw'},'fast')
-		.css('background-color','white')
-		.css('font-weight','900')
-		.css('color','#076e7b')
-		.addClass('extended');
+$('.willkommen-l').animate({width: '+=2vw'},'fast')
+	.css('background-color','white')
+	.css('font-weight','900')
+	.css('color','#076e7b')
+	.addClass('extended');
 
 // END -> ANIMATION
 
