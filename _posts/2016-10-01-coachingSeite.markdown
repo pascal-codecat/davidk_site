@@ -1,2 +1,2 @@
-Wenn Sie als Einzelperson vor einer Weichenstellung, einem Problem oder einer Herausforderung im beruflichen Umfeld stehen, kann ich Sie im Coaching unterstützen verschiedene Perspektiven einzunehmen, Szenarien zu erarbeiten und die für Sie passenden nächsten Schritte vorzubereiten.
+Wenn Sie als Einzelperson vor einer Weichenstellung, einem Problem oder einer Herausforderung im beruflichen Umfeld stehen, kann ich Sie im Coaching unterstützen verschiedene Perspektiven einzunehmen, Szenarien zu erarbeiten und die für Sie passenden nächsten Schritte vorzubereiten.<br><br>
 Ich verstehe Coaching zum Teil auch als Einzeltraining, bei dem ich mit Ihnen an Ihrer Kompetenzentwicklung arbeite.

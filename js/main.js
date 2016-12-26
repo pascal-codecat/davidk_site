@@ -1,6 +1,22 @@
 
 $(document).ready(function(){
 
+
+// START -> RELOAD ON ZOOM
+	jQuery(function($){
+var windowWidth = $(window).width();
+
+$(window).resize(function() {
+    if(windowWidth != $(window).width()){
+    location.reload();
+    return;
+    }
+});
+});
+// END -> RELOAD ON ZOOM
+
+
+
 // START -> ANIMATION
 
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -55,59 +71,71 @@ $('#angebote-team').click(function(){
 	$('.angebote-team').addClass('angebote-visible');
 });
 
+$('#angebote-arbeitsweise').click(function(){
+	$('.angebote-text').removeClass('angebote-visible');
+	$('.angebote-arbeitsweise').addClass('angebote-visible');
+});
 
 // START -> NAVBAR ANGEBOTE
 
 // START -> NAVBAR ANIMATION
 
-var select = false;
-
-$('.willkommen-l')
-	.animate({width: '+=2vw'},'fast')
+$('.willkommen-l').animate({width: '+=2vw'},'fast')
 	.css('background-color','white')
 	.css('font-weight','900')
 	.css('color','#076e7b')
 	.addClass('extended');
-	select = true
 
 
+$('.nav-list,.nav-list-info').mouseenter(function(element){
+	var elementClass = element.target.className;
+	var elementClassFirst = "."+elementClass.split(" ")[0];
 
+	// wirde aktives Element nochmals aktiviert -> keine Aktion
+	if (elementClass.includes('extended')){
 
-$('.nav-list').mouseenter(function(){
+	}else if (elementClass.includes('extended-info')) {
 
-	$('.extended').animate({width: '-=2vw'},'fast')
-		.css('background-color','#00b5cc')
-		.css('font-weight','normal')
-		.css('color','#e8e8e8')
+	}else if(elementClass.includes('nav-list-info')){
+		// Alle vorherigen Elemente werden zurückgesetzt
+		$('.extended').animate({width: '-=2vw'},'fast')
+			.css('background-color','#00b5cc')
+			.css('font-weight','normal')
+			.css('color','#e8e8e8')
 		.removeClass('extended');
-		select = false
 
-}).mouseenter(function(){
-	if (select == false) {
-		$(this).animate({width: '+=2vw'},'fast');
-		$(this).css('background-color','white');
-		$(this).css('font-weight','900');
-		$(this).css('color','#076e7b');
-		$(this).addClass('extended');
-		select = true;
-} else {};
-
-});
+		// Kontakt-Leiste wird aktiviert
+		$('.nav-list-info').animate({width: '+=2vw'},'fast')
+		.addClass('extended-info')
+		.css('background-color','white')
+		.css('font-weight','900');
+		$('#info-s').css('color','#076e7b');
+		$('#mail').attr("src",'img/mailblue.png');
 
 
+	}else{
+		// Kontakt-Leiste zurücksetzen
+		$('#mail').attr("src",'img/mail.png');
+		$('#info-s').css('color','#e8e8e8');
+		$('.extended-info').animate({width: '-=2vw'},'fast')
+			.css('background-color','#00b5cc')
+			.css('font-weight','normal')
+			.removeClass('extended-info');
 
+		// alle vorherigen Elemente werden zurückgesetzt
+		$('.extended').animate({width: '-=2vw'},'fast')
+			.css('background-color','#00b5cc')
+			.css('font-weight','normal')
+			.css('color','#e8e8e8')
+			.removeClass('extended');
 
-$('.nav-list-info').mouseenter(function(){
-	$('#mail').attr("src",'img/mailblue.png');
-	$(this).css('background-color','white');
-	$(this).css('font-weight','900')
-	$('#info-s').css('color','#076e7b');
-
-}).mouseleave(function(){
-	$('#mail').attr("src",'img/mail.png');
-	$(this).css('background-color','#00b5cc');
-	$(this).css('font-weight','normal')
-	$('#info-s').css('color','#e8e8e8');
+		//Das Event-Element wird aktiviert
+		$(elementClassFirst).animate({width: '+=2vw'},'fast')
+			.css('background-color','white')
+			.css('font-weight','900')
+			.css('color','#076e7b')
+			.addClass('extended');
+	};
 });
 
 // END -> NAVBAR ANIMATION

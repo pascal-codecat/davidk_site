@@ -6,5 +6,6 @@ Alle meine Angebote werden nach einer ausführlichen Auftragsklärung individuel
 * Coaching
 * Konfliktmoderation
 * Begleitung von Veränderungsprozessen
-* Trainings zu verschiedenen Sozialkompetenzen
+* Arbeitsweise in Trainings
 * Teamentwicklung
+* meine Arbeitsweise
