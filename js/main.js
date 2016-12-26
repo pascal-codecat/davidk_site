@@ -149,17 +149,17 @@ $('.info-l').mouseenter(function(){
 });
 // END -> SMOOTH SCROLLING
 
-// // START -> RELOAD ON ZOOM
-// 	jQuery(function($){
-// var windowWidth = $(window).width();
-//
-// $(window).resize(function() {
-//     if(windowWidth != $(window).width()){
-//     location.reload();
-//     return;
-//     }
-// });
-// });
-// // END -> RELOAD ON ZOOM
+// START -> RELOAD ON ZOOM
+	jQuery(function($){
+var windowWidth = $(window).width();
+
+$(window).resize(function() {
+    if(windowWidth != $(window).width()){
+    location.reload();
+    return;
+    }
+});
+});
+// END -> RELOAD ON ZOOM
 
 });
