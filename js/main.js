@@ -33,6 +33,11 @@ $('.willkommen-bei')
 		.css('-ms-animation-duration', '2s')
 		.addClass('animated fadeIn');
 
+		$('.willkommen-l').animate({width: '+=2vw'},'fast')
+			.css('background-color','white')
+			.css('font-weight','900')
+			.css('color','#076e7b')
+			.addClass('extended');
 	});
 
 // END -> ANIMATION
@@ -79,12 +84,6 @@ $('#angebote-arbeitsweise').click(function(){
 // START -> NAVBAR ANGEBOTE
 
 // START -> NAVBAR ANIMATION
-
-$('.willkommen-l').animate({width: '+=2vw'},'fast')
-	.css('background-color','white')
-	.css('font-weight','900')
-	.css('color','#076e7b')
-	.addClass('extended');
 
 
 $('.nav-list,.nav-list-info').mouseenter(function(element){
