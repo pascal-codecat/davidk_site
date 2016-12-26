@@ -110,56 +110,56 @@ $('#angebote-arbeitsweise').click(function(){
 // START -> NAVBAR ANIMATION
 
 
-// $('.nav-list,.nav-list-info').mouseenter(function(element){
-// 	var elementClass = element.target.className;
-// 	var elementClassFirst = "."+elementClass.split(" ")[0];
-//
-// 	// wirde aktives Element nochmals aktiviert -> keine Aktion
-// 	if (elementClass.includes('extended')){
-//
-// 	}else if (elementClass.includes('extended-info')) {
-//
-// 	}else if(elementClass.includes('nav-list-info')){
-// 		// Alle vorherigen Elemente werden zurückgesetzt
-// 		$('.extended').animate({width: '-=2vw'},'fast')
-// 			.css('background-color','#00b5cc')
-// 			.css('font-weight','normal')
-// 			.css('color','#e8e8e8')
-// 		.removeClass('extended');
-//
-// 		// Kontakt-Leiste wird aktiviert
-// 		$('.nav-list-info').animate({width: '+=2vw'},'fast')
-// 		.addClass('extended-info')
-// 		.css('background-color','white')
-// 		.css('font-weight','900');
-// 		$('#info-s').css('color','#076e7b');
-// 		$('#mail').attr("src",'img/mailblue.png');
-//
-//
-// 	}else{
-// 		// Kontakt-Leiste zurücksetzen
-// 		$('#mail').attr("src",'img/mail.png');
-// 		$('#info-s').css('color','#e8e8e8');
-// 		$('.extended-info').animate({width: '-=2vw'},'fast')
-// 			.css('background-color','#00b5cc')
-// 			.css('font-weight','normal')
-// 			.removeClass('extended-info');
-//
-// 		// alle vorherigen Elemente werden zurückgesetzt
-// 		$('.extended').animate({width: '-=2vw'},'fast')
-// 			.css('background-color','#00b5cc')
-// 			.css('font-weight','normal')
-// 			.css('color','#e8e8e8')
-// 			.removeClass('extended');
-//
-// 		//Das Event-Element wird aktiviert
-// 		$(elementClassFirst).animate({width: '+=2vw'},'fast')
-// 			.css('background-color','white')
-// 			.css('font-weight','900')
-// 			.css('color','#076e7b')
-// 			.addClass('extended');
-// 	};
-// });
+$('.nav-list,.nav-list-info').mouseenter(function(element){
+	var elementClass = element.target.className;
+	var elementClassFirst = "."+elementClass.split(" ")[0];
+
+	// wirde aktives Element nochmals aktiviert -> keine Aktion
+	if (elementClass.includes('extended')){
+
+	}else if (elementClass.includes('extended-info')) {
+
+	}else if(elementClass.includes('nav-list-info')){
+		// Alle vorherigen Elemente werden zurückgesetzt
+		$('.extended').animate({width: '-=2vw'},'fast')
+			.css('background-color','#00b5cc')
+			.css('font-weight','normal')
+			.css('color','#e8e8e8')
+		.removeClass('extended');
+
+		// Kontakt-Leiste wird aktiviert
+		$('.nav-list-info').animate({width: '+=2vw'},'fast')
+		.addClass('extended-info')
+		.css('background-color','white')
+		.css('font-weight','900');
+		$('#info-s').css('color','#076e7b');
+		$('#mail').attr("src",'img/mailblue.png');
+
+
+	}else{
+		// Kontakt-Leiste zurücksetzen
+		$('#mail').attr("src",'img/mail.png');
+		$('#info-s').css('color','#e8e8e8');
+		$('.extended-info').animate({width: '-=2vw'},'fast')
+			.css('background-color','#00b5cc')
+			.css('font-weight','normal')
+			.removeClass('extended-info');
+
+		// alle vorherigen Elemente werden zurückgesetzt
+		$('.extended').animate({width: '-=2vw'},'fast')
+			.css('background-color','#00b5cc')
+			.css('font-weight','normal')
+			.css('color','#e8e8e8')
+			.removeClass('extended');
+
+		//Das Event-Element wird aktiviert
+		$(elementClassFirst).animate({width: '+=2vw'},'fast')
+			.css('background-color','white')
+			.css('font-weight','900')
+			.css('color','#076e7b')
+			.addClass('extended');
+	};
+});
 
 // END -> NAVBAR ANIMATION
 
