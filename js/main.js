@@ -41,30 +41,6 @@ $('.willkommen-bei')
 // END -> ANIMATION
 
 
-// // START -> SMOOTH SCROLLING
-//
-// $('.willkommen-l').mouseenter(function(){
-// 	$('.content').scrollTo('.willkommen-s',500);
-// });
-//
-// $('.ubermich-l').mouseenter(function(){
-// 	$('.content').scrollTo('.ubermich-s',500);
-// });
-//
-// $('.vita-l').mouseenter(function(){
-// 	$('.content').scrollTo('.vita-s',500);
-// });
-//
-// $('.angebote-l').mouseenter(function(){
-// 	$('.content').scrollTo('.angebote-s',500);
-// });
-//
-// $('.info-l').mouseenter(function(){
-// 	$('.content').scrollTo('.info-s',500);
-// });
-// // END -> SMOOTH SCROLLING
-
-
 
 // START -> NAVBAR ANGEBOTE
 $('.angebote-start').addClass('angebote-visible');
