@@ -46,39 +46,34 @@ $('.willkommen-bei')
 $('.angebote-start').addClass('angebote-visible');
 $('.angebote-logo').addClass('angebote-visible');
 
-$('#angebote-fuhrung').click(function(){
+$('#md-fuhrung,#angebote-fuhrung').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-fuhrung').addClass('angebote-visible');
 });
 
-$('#angebote-coaching').click(function(){
+$('#md-coaching,#angebote-coaching').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-coaching').addClass('angebote-visible');
 });
 
-$('#angebote-konflikt').click(function(){
+$('#md-konflikt,#angebote-konflikt').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-konflikt').addClass('angebote-visible');
 });
 
-$('#angebote-begleitung').click(function(){
+$('#md-begleitung,#angebote-begleitung').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-begleitung').addClass('angebote-visible');
 });
 
-$('#angebote-trainings').click(function(){
+$('#md-trainings,#angebote-trainings').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-trainings').addClass('angebote-visible');
 });
 
-$('#angebote-team').click(function(){
+$('#md-team,#angebote-team').click(function(){
 	$('.angebote-text').removeClass('angebote-visible');
 	$('.angebote-team').addClass('angebote-visible');
-});
-
-$('#angebote-arbeitsweise').click(function(){
-	$('.angebote-text').removeClass('angebote-visible');
-	$('.angebote-arbeitsweise').addClass('angebote-visible');
 });
 
 // START -> NAVBAR ANGEBOTE
@@ -86,7 +81,7 @@ $('#angebote-arbeitsweise').click(function(){
 // START -> NAVBAR ANIMATION
 
 
-$('.nav-list,.nav-list-info').mouseenter(function(element){
+$('.nav-list, .nav-list-info').mouseenter(function(element){
 	var elementClass = element.target.className;
 	var elementClassFirst = "."+elementClass.split(" ")[0];
 	var elementClassSite = elementClassFirst.replace("-l","-s");
