@@ -3,6 +3,33 @@
 ---
 @charset "utf-8";
 
+.mobile-warning {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+		.height-container{
+			display: none;
+		}
+    .mobile-warning {
+			background-color: #9cbbbf;
+			background-image: url(../img/seigaiha.png);
+			z-index: 4;
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+    }
+		.mobile-warning p{
+			color: #e8e8e8;
+			font-family: 'Crete Round', serif;
+			margin: 50% 10%;
+			word-break: normal;
+			font-size: 200%;
+		}
+}
+
+
 body {
 	background-color: #9cbbbf;
 	background-image: url(../img/seigaiha.png);
@@ -160,6 +187,7 @@ body {
 
 #mail{
 	position: absolute;
+	pointer-events: none;
 	top: 55%;
 	left: 42.5%;
 	width: 2.2em;
@@ -168,6 +196,7 @@ body {
 // https://www.iconfinder.com/icons/115714/email_mail_send_icon#size=256
 
 .nav-list p{
+	pointer-events: none;
 	font-size: 145%;
 	font-weight: normal;
 	position: static;
@@ -178,6 +207,7 @@ body {
 }
 
 #info-s{
+	pointer-events: none;
 	position: static;
 	margin: 3.3vh;
 	font-size: 145%;

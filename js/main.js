@@ -80,8 +80,15 @@ $('#md-team,#angebote-team').click(function(){
 
 // START -> NAVBAR ANIMATION
 
-
 $('.nav-list, .nav-list-info').mouseenter(function(element){
+	navbarAuto(element);
+});
+
+$('.nav-list, .nav-list-info').on("tap",function(element){
+	navbarAuto(element);
+});
+
+function navbarAuto(element){
 	var elementClass = element.target.className;
 	var elementClassFirst = "."+elementClass.split(" ")[0];
 	var elementClassSite = elementClassFirst.replace("-l","-s");
@@ -133,7 +140,7 @@ $('.nav-list, .nav-list-info').mouseenter(function(element){
 			$('.content').scrollTo(elementClassSite,500);
 
 	};
-});
+};
 
 // END -> NAVBAR ANIMATION
 
