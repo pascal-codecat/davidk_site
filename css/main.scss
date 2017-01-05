@@ -7,7 +7,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
 		.height-container{
 			display: none;
 		}
@@ -378,7 +378,7 @@ body {
 	margin-top: 1em;
 	margin-left: 1.5em;
 	height: 100%;
-	width: 33vw;
+	width: 60%;
 }
 
 .ubermich-text h1{
@@ -389,8 +389,9 @@ body {
 }
 
 .ubermich-text span{
-	font-size: 0.9vw;
+	font-size: 0.9em;
 }
+
 // CONTENT -> END ÜBERMICH
 
 // CONTENT -> START VITA
@@ -413,11 +414,12 @@ body {
 	margin-top: 1em;
 	margin-left: 1.5em;
 	height: 100%;
-	width: 33vw;
+	width: 60%;
 }
 
 .vita-text span{
-	font-size: 0.83vw;
+	position: absolute;
+	font-size: 0.8em;
 }
 
 .vita-text h1{
@@ -435,7 +437,7 @@ body {
 	border-bottom: solid #076e7b;
 	background-color: #3b8a95;
 	position: absolute;
-	height: 10vh;
+	height: 5vw;
 	width: 100%;
 }
 
@@ -492,7 +494,7 @@ body {
 	position: absolute;
 	margin-top: 11vh;
 	margin-left: 2.5em;
-	width: 33vw;
+	width: 60%;
 }
 
 
@@ -509,7 +511,7 @@ body {
 }
 
 .angebote-text span{
-	font-size: 0.9vw;
+	font-size: 0.9em;
 }
 
 
@@ -522,7 +524,7 @@ body {
 	position: absolute;
 	margin-top: 7vh;
 	text-align: center;
-	width: 48vw;
+	width: 100%;
 }
 
 .info-text h1{
@@ -538,7 +540,7 @@ body {
 }
 
 .info-text span{
-	font-size: 1vw;
+	font-size: 1em;
 }
 .made-by{
 	position: absolute;
