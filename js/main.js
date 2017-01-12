@@ -84,9 +84,9 @@ $('.nav-list, .nav-list-info').mouseenter(function(element){
 	navbarAuto(element);
 });
 
-$('.nav-list, .nav-list-info').on("tap",function(element){
-	navbarAuto(element);
-});
+// $('.nav-list, .nav-list-info').on("tap",function(element){
+// 	navbarAuto(element);
+// });
 
 function navbarAuto(element){
 	var elementClass = element.target.className;
