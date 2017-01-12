@@ -3,6 +3,11 @@
 ---
 @charset "utf-8";
 
+.height-container {
+	background-color: #9cbbbf;
+	background-image: url(../img/seigaiha.png);
+}
+
 .mobile-warning {
 	display: none;
 }
@@ -45,11 +50,6 @@
 		}
 }
 
-
-body {
-	background-color: #9cbbbf;
-	background-image: url(../img/seigaiha.png);
-}
 // Background pattern from subtlepatterns.com
 
 // START -> LAYOUT
